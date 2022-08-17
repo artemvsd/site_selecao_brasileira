@@ -1,0 +1,22 @@
+.tabela{
+    width: 80%;
+    height: 25rem;
+    border-radius: 10px;
+    border: 4px solid green;
+    margin: 0 auto;
+    background-image: url(../img/fundo.png); 
+    background-position: center;
+    background-size: cover;
+}
+.posicoes{
+    width: 20%;
+    
+}
+th, td{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 2%;
+    color: white;
+    border-radius: 10px;
+}

@@ -1,0 +1,117 @@
+.form{
+  width: 30%;
+  height: 70%;
+  border: 4px solid green;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 10% 20% 20% 20% 20% 10%;
+  margin: 3% auto;
+  background-color: gold;
+}
+.input{
+  margin: auto auto;
+  width: 70%;
+  height: 50%;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+}
+.textarea{
+  margin: auto auto;
+  width: 70%;
+  height: 60%;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+}
+.sub{
+  text-align: center;
+  font-size: 30px;
+  color: royalblue;
+  -webkit-text-stroke-color: green;
+  -webkit-text-stroke-width: 0.7px;
+}
+.btn{
+  margin: 0 auto;
+  height: 45%;
+  width: 20%;
+  background-color: lightskyblue;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.grid-row-1{
+  grid-row-start: 1;
+}
+.grid-row-2{
+  grid-row-start: 2;
+}
+.grid-row-3{
+  grid-row-start: 3;
+}
+.grid-row-4{
+  grid-row-start: 4;
+}
+.grid-row-5{
+  grid-row-start: 5;
+}
+.grid-row-6{
+  grid-row-start: 6;
+}
+
+.modal-off{
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 210vh;
+  background-color:rgba(0,0,0,0.8);
+}
+.modal-on{
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 210vh;
+  background-color:rgba(0,0,0,0.8);
+}
+.modal-pag{
+  width: 40%;
+  height: 30%;
+  background-color: white;
+  margin: 60% auto;
+  border-radius: 20px;
+}
+.esc{
+  float: right;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  color: red;
+}
+.p-modal{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: royalblue;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: green;
+    margin-top: 5%;
+}
+.titulo-modal{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: royalblue;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: green;
+}
+.comemoracao{
+  width: 90%;
+  margin: 8% 4.5%;
+  border-radius: 10px;
+  border: 4px gold solid;
+}

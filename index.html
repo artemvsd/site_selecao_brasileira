@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/prod.css">
+    <link rel="stylesheet" href="css/tabelaseleçao.css">
+    <link rel="stylesheet" href="css/not.css">
+    <title> Brasil </title>
+</head>
+
+<body id="body">
+    <header class="header">
+        <!-- Header, fixo -->
+        <nav class="menu">
+            <div class="logo-dv">
+                <a href="index.html"><img class="logo" src="img/logo-brasil.png" alt="Brasil"></a>
+            </div>
+            <ul class="link">
+                <div class="links-tela">
+                    <li><a href="?id=Convocação#main"> Convocação </a></li>
+                    <li><a href="index.html#main">Produtos</a></li>
+                    <li><a href="?id=Noticias#main">Noticias</a></li>
+                </div>
+                <input type="checkbox" id="check">
+                <label id="icone" for="check"> <img id="icone-img" src="img/icon-menu.png" width="30px" height="30px" alt="menu"></label>
+                <div class="dropdown">
+                    <div class="outros">
+                        <li><a href="?id=FaleConosco#main ">Fale Conosco</a></li>
+                        <li><a id="link-historia" onclick="alterarHistoria()" href="?id=História#main"> História</a></li>
+                        <li><a id="link-Missao" onclick="alterarMissao()" href="?id=Missão#main">Missão</a></li>
+                        <li><a id="link-VV" onclick="alterarVV()" href="?id=Visão-e-Valores#main">Visão e Valores</a></li>
+                    </div>
+                </div>
+
+
+            </ul>
+        </nav>
+        <div class="banner-dv">
+        </div>
+    </header>
+
+
+    <main id="main" class="fundo-main">
+        <!-- Main, mudavel -->
+        <a href="?id=Produtos#main"> <img class="img-produtos" src="img/gif-produtos.gif" loop="infinite" alt="Produtos"> </a>
+
+
+    </main>
+
+
+    <footer>
+        <!-- footer, fixo -->
+        <p>Todos os direitos reservados, Artem Vinicius e Gabriel Maciel @2022</p>
+
+    </footer>
+
+</body>
+<script src="scripts/main.js"></script>
+<script src="scripts/form.js"></script>
+<script src="scripts/prod.js"></script>
+
+</html>
